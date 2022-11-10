@@ -17,7 +17,7 @@ html {
 .abstract-nav::after {
 	display: inline-block;
 	height: 2.5rem;
-	width: .2rem;
+	width: 0.2rem;
 	content: '';
 	background: #fff;
 	border-radius: 2.5rem;
@@ -33,7 +33,7 @@ header {
 	align-items: center;
 }
 
-.cos1 p {
+.head p {
 	color: white;
 	font-size: 2.4rem;
 	line-height: 2.55rem;
@@ -41,7 +41,7 @@ header {
 	font-weight: 500;
 }
 
-.cos1 {
+.head {
 	display: flex;
 	flex-wrap: nowrap;
 	text-align: center;
@@ -83,6 +83,13 @@ header {
 	margin-left: 1.6rem;
 }
 
+.btn2:hover {
+	background: white;
+	color: black;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
 .wraper {
 	height: 40rem;
 	padding-bottom: 11.5rem;
@@ -92,7 +99,7 @@ header {
 	width: 100%;
 }
 
-.what {
+.margin {
 	height: 12.8rem;
 	width: 100vw;
 	background: #fff;
@@ -101,7 +108,7 @@ header {
 .howcan {
 	color: #000000;
 	font-size: 8rem;
-	letter-spacing: -.4rem;
+	letter-spacing: -0.4rem;
 	line-height: 7.6rem;
 	font-weight: 400;
 	margin: 0 0 1rem;
@@ -131,7 +138,7 @@ header {
 	margin-top: 2rem;
 }
 
-.itemy {
+.items {
 	width: 100vw;
 	height: 842px;
 	background-color: #fff;
@@ -148,7 +155,7 @@ header {
 	height: 10rem;
 }
 
-.wtf {
+.asset {
 	height: 9rem;
 	width: 9rem;
 }
@@ -208,11 +215,11 @@ header {
 	margin-left: -1px;
 }
 
-.mlekowrap {
+.secondwraper {
 	width: 100vw;
 }
 
-.mleko {
+.wraperitem {
 	display: flex;
 }
 
@@ -373,7 +380,7 @@ footer {
 		display: none;
 	}
 
-	.cos1 {
+	.head {
 		display: flex;
 		margin: 0;
 	}
@@ -439,7 +446,7 @@ footer {
 		padding-left: 20px;
 	}
 
-	.itemy {
+	.items {
 		display: none;
 	}
 
@@ -454,7 +461,7 @@ footer {
 	.abstact2 {
 		display: block;
 		margin-bottom: 35px;
-        margin-left: 15px;
+		margin-left: 15px;
 	}
 
 	.ptag {
@@ -483,130 +490,118 @@ footer {
 		font-size: 20px;
 		color: #4c5fd5;
 		text-decoration: none;
-        margin-left: 0;
+		margin-left: 0;
 	}
 
 	footer {
-        display: none;
+		display: none;
 	}
 
-    .abstact2 .img{
-        height: 250px;
-    }
+	.abstact2 .img {
+		height: 250px;
+	}
 
-    .wtf{
-        height: 63px;
-        width: 63px;
-    }
+	.asset {
+		height: 63px;
+		width: 63px;
+	}
 
-    .special1{
-        margin-bottom: 150px;
-    }
-    
-    
+	.special1 {
+		margin-bottom: 150px;
+	}
 
-    .footx{
-        height: 700px;
-        width: 390px;
-        background: black;
-        margin-top: 220%;
-        color: white;
-    }
-    
-    .foot1{
-        margin: 20px;
-        padding-top: 35px;
+	.footx {
+		height: 700px;
+		width: 390px;
+		background: black;
+		margin-top: 220%;
+		color: white;
+	}
+
+	.foot1 {
+		margin: 20px;
+		padding-top: 35px;
 		margin-right: 70px;
-    }
+	}
 
+	.foot1 h5 {
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
 
-    .foot1 h5{ 
-        font-size: 24px;
-        padding-bottom: 15px;
+	.foot1 ul {
+		list-style: none;
+	}
 
+	.foot1 ul li {
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
 
-    }
-    
-    .foot1 ul{
-        list-style: none;
-    }
-
-    .foot1 ul li{
-        font-size: 16px;
-        padding-bottom: 5px;
-    }
-        
-	.footwrap1{
+	.footwrap1 {
 		display: flex;
 	}
-    
-	.foot2{
+
+	.foot2 {
 		margin-top: 55px;
 		margin-left: 15px;
 	}
 
-	.foot2 h5{
+	.foot2 h5 {
 		font-size: 24px;
-        padding-bottom: 15px;
+		padding-bottom: 15px;
 	}
 
-	.foot2 ul{
+	.foot2 ul {
 		list-style: none;
 	}
 
-	.foot2 ul li{
+	.foot2 ul li {
 		font-size: 18px;
-        padding-bottom: 10px;
+		padding-bottom: 10px;
 	}
 
-	.footwrap2{
+	.footwrap2 {
 		display: flex;
 	}
 
-
-	.footwrap2 .foot1 ul li:last-child{
+	.footwrap2 .foot1 ul li:last-child {
 		margin-bottom: 25px;
 	}
 
-	.footwrap2 .foot1 p{
+	.footwrap2 .foot1 p {
 		font-size: 16px;
 		padding: 4px;
 	}
-	.foot4{
+	.foot4 {
 		margin-right: 25px;
-
 	}
 
-	.foot3{
+	.foot3 {
 		margin-right: 30px;
 	}
 
-
-	.prog-m{
+	.prog-m {
 		font-size: 20px;
 	}
 
-	.prog-m p{
+	.prog-m p {
 		padding: 3px;
 		margin-left: 10px;
 	}
 
-	.help{
+	.help {
 		top: 98%;
 		right: 98%;
 	}
 }
 
-
-@media only screen and (min-width: 750px){
-
-	.all{
+@media only screen and (min-width: 750px) {
+	.all {
 		display: none;
 	}
 
-	.footx{
+	.footx {
 		display: none;
 	}
-
-
 }
