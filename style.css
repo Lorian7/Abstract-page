@@ -10,6 +10,10 @@ html {
 	overflow-x: hidden;
 }
 
+body {
+	width: 100vw;
+}
+
 .container {
 	width: 100vw;
 }
@@ -96,7 +100,7 @@ header {
 	background: #dadbf1;
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	width: 100vw;
 }
 
 .margin {
@@ -440,6 +444,7 @@ footer {
 		padding: 0;
 		width: 350px;
 		margin-top: 50px;
+		margin: 0 auto;
 	}
 
 	.input2::placeholder {
@@ -512,7 +517,7 @@ footer {
 
 	.footx {
 		height: 700px;
-		width: 390px;
+		width: 100vw;
 		background: black;
 		margin-top: 220%;
 		color: white;
